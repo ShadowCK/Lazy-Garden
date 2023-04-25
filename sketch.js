@@ -43,8 +43,8 @@ var debugLevel = 0; // Debug level used for whether to use print() in logDebug()
  * Preloads image-based objects and background due to p5js's image-loading mechanism.
  */
 function preload() {
-  backgroundImage = loadImage("media/Background.png");
-  instructionsImage = loadImage("media/Instructions.png")
+  backgroundImage = loadImage("./media/background.png");
+  instructionsImage = loadImage("./media/instructions.png")
   helpIcon = new HelpIcon(800 - 40, 0, 40, 40);
 
   gardeners.push(new Influencer(random(200, 600), random(200, 600) + yFix), new Influencer(random(200, 600), random(200, 600) + yFix));

@@ -19,7 +19,7 @@ class HelpIcon {
         this.y = y;
         this.w = w;
         this.h = h;
-        this.image = loadImage("media/QuestionMark.png");
+        this.image = loadImage("./media/question-mark.png");
     }
 
     display() {

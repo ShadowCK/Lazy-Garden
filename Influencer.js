@@ -21,15 +21,15 @@ class Influencer {
      * @param {*} y Y coordinate where the gardener start off
      */
     constructor(x, y) {
-        this.idle = loadImage("media/Gardener-idle.png");
+        this.idle = loadImage("./media/gardener-idle.png");
         this.isIdle = true; // CURRENTLY NOT USED!!
         this.idleTimer = null; // How long every idle action should last
         this.isWorking = false; // Being in a working state does NOT mean the gardener is "working" – performing an interactive task with a flower
 
-        this.resting = loadImage("media/Gardener-resting.png");
-        this.watering = loadImage("media/Gardener-watering.png");
-        this.weeding = loadImage("media/Gardener-weeding.png");
-        this.harvesting = loadImage("media/Gardener-harvesting.png");
+        this.resting = loadImage("./media/gardener-resting.png");
+        this.watering = loadImage("./media/gardener-watering.png");
+        this.weeding = loadImage("./media/gardener-weeding.png");
+        this.harvesting = loadImage("./media/gardener-harvesting.png");
         this.state = "resting";
         this.stateBeforeAutoRest = null;
 

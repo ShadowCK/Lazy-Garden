@@ -18,12 +18,12 @@ class Target {
         this.x = x;
         this.y = y;
 
-        this.sprout = loadImage("media/Flower-sprout.png");
-        this.sprout_weed = loadImage("media/Flower-sprout-weed.png");
-        this.growing = loadImage("media/Flower-growing.png");
-        this.growing_weed = loadImage("media/Flower-growing-weed.png");
-        this.mature = loadImage("media/Flower-mature.png");
-        this.mature_weed = loadImage("media/Flower-mature-weed.png");
+        this.sprout = loadImage("./media/flower-sprout.png");
+        this.sprout_weed = loadImage("./media/flower-sprout-weed.png");
+        this.growing = loadImage("./media/flower-growing.png");
+        this.growing_weed = loadImage("./media/flower-growing-weed.png");
+        this.mature = loadImage("./media/flower-mature.png");
+        this.mature_weed = loadImage("./media/flower-mature-weed.png");
 
         this.state = "sprout";
 
